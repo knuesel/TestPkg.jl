@@ -1,0 +1,13 @@
+name = "TestPkg"
+uuid = "146ae2c1-2ad2-423a-9b55-08d2e94d9f48"
+authors = ["Jeremie Knuesel <knuesel@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
