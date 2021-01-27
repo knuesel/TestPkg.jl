@@ -19,7 +19,7 @@ version = "0.8.3"
 
 [[Documenter]]
 deps = ["Base64", "Dates", "DocStringExtensions", "IOCapture", "InteractiveUtils", "JSON", "LibGit2", "Logging", "Markdown", "REPL", "Test", "Unicode"]
-git-tree-sha1 = "ce80a0e84fd05268f5e07d088cf76edcbb3e98f7"
+git-tree-sha1 = "2618f97b3941d4ab679374dcace6bf8d67f077a6"
 repo-rev = "fix-envvar-checks"
 repo-url = "https://github.com/knuesel/Documenter.jl"
 uuid = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
