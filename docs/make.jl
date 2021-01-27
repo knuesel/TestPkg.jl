@@ -20,5 +20,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/knuesel/TestPkg.jl",
-    # push_preview=true,
+    push_preview=true,
 )
