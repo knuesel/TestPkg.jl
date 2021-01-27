@@ -19,5 +19,5 @@ julia> 2+2
 
 ```jldoctest
 julia> 3+3
-6
+9
 ```
