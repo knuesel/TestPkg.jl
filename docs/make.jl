@@ -1,6 +1,8 @@
 using TestPkg
 using Documenter
 
+DocMeta.setdocmeta!(TestPkg, :DocTestSetup, :(using TestPkg); recursive=true)
+
 makedocs(;
     modules=[TestPkg],
     authors="Jeremie Knuesel <knuesel@gmail.com> and contributors",
@@ -18,4 +20,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/knuesel/TestPkg.jl",
+    # push_preview=true,
 )
