@@ -13,8 +13,8 @@ f1
 More stuff:
 
 ```jldoctest
-julia> 2+2
-4
+julia> 2+5
+7
 ```
 
 ```jldoctest
