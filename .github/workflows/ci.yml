@@ -45,8 +45,8 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Pkg
-            Pkg.develop(PackageSpec(path=pwd()))
-            Pkg.instantiate()'
+            Pkg.instantiate()
+            Pkg.develop(PackageSpec(path=pwd()))'
       - run: |
           julia --project=docs -e '
             using Documenter: doctest, DocMeta
