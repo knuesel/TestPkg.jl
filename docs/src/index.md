@@ -10,7 +10,7 @@ Some functions:
 f1
 ```
 
-More stuff:
+Calculations:
 
 ```jldoctest
 julia> 2+2
